@@ -1,0 +1,14 @@
+
+Solving Air Cargo Problem 1 using greedy_best_first_graph_search with h_unmet_goals...
+
+# Actions   Expansions   Goal Tests   New Nodes
+    20          7           9           29    
+
+Plan length: 6  Time elapsed in seconds: 0.013097792980261147
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+
